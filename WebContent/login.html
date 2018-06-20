@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+</head>
+<body>
+	<form action="http://localhost:8080/MyMails/AuthenticateUserServlet" method="post">
+		<table width=50% align=center bgcolor=orange border=1>
+			<tr>
+				<td> User Name </td>
+				<td> <input type=text name=uid> </td>
+			</tr>
+			<tr>
+				<td> Password </td>
+				<td> <input type=password name=pwd> </td>
+			</tr>
+			
+			<tr>
+				<td> <input type=submit value=Login> </td>
+				<td> <input type=reset value=Cancel> </td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
